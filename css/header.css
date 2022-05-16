@@ -1,0 +1,32 @@
+#cabecalho{
+    width: 100%;
+    background-color: transparent;
+    transition: background ease-out 0.2s;
+}
+
+
+
+#cabecalho .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+    color: #000;
+    border-bottom: 4px solid transparent;
+    font-size: 0.95em;
+}
+
+#cabecalho .nav-link:hover{
+    border-bottom: 4px solid var(--secundaria);
+    color: var(--secundaria);
+}
+
+.navbar{
+    justify-content: space-between;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
